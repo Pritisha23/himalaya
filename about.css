@@ -1,0 +1,82 @@
+/* GENERAL STYLES */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4fff8;
+    color: #2f5d45;
+}
+
+/* HERO SECTION */
+.about-hero {
+    background: linear-gradient(to right, #b8f1d3, #d9f7c6);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* MAIN CONTAINER */
+.about-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* CARDS */
+.about-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+}
+
+.about-card h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.about-card ul {
+    padding-left: 20px;
+}
+
+.about-card li {
+    margin-bottom: 8px;
+}
+
+/* CTA SECTION */
+.about-cta {
+    text-align: center;
+    background: #e9fff1;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-btn:hover {
+    background: #256628;
+}
